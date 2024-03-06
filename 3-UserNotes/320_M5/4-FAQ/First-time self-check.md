@@ -8,6 +8,8 @@
 
 **The steps for joint control are as follows:**
 
+<center>Table 1-3 Potential safety hazards that may lead to electric shock</center>
+
 #### **1.** ***\*Hardware Connection:\****
 
 l For MyCobot 280 and Mech 270 series robotic arms, ensure that the power adapter and USB data cable are connected.
