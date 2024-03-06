@@ -4,9 +4,7 @@
 
 **Attention:** When starting up the robotic arm, please ensure that it is not in a curled-up position or in a posture where joints are touching. It is recommended to start the robotic arm with the posture shown in the following diagram:
 
-![img](file:C:\Users\Administrator\Desktop\FQA\fqa_images) 
-
-![f1](resources/3-UserNotes/3.1-SafetyInstructions/careful.png)
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f1.jpg" alt="img-1" width="100" height=“auto” />|
 
 **The steps for joint control are as follows:**
 
