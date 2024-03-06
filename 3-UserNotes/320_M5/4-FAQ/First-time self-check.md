@@ -30,27 +30,27 @@ l For PI or JN version robots, there is no need to install and configure the usa
 
 Before using each communication method, ensure that the M5's LCD screen is set to the corresponding mode and remains in this communication state to control the robotic arm properly.
 
-The M5 robotic arm has three communication methods: USB serial, WiFi, and Bluetooth communication. The most commonly used is the USB serial communication method.![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps3.jpg)
+The M5 robotic arm has three communication methods: USB serial, WiFi, and Bluetooth communication. The most commonly used is the USB serial communication method.
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f3.png"/>|
 
 **USB Serial Communication Method:**
 
 l When using MyBlockly, Python, ROS, and other development methods, make sure the M5's LCD screen stays on the "Atom: ok" interface.
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps4.jpg) 
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f4.png"/>|
 
  
-
 **WiFi Communication Mode:**
 
 l When using TCP/IP examples in the Python section, make sure the M5's LCD screen remains in the WiFi communication interface.
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps5.jpg) 
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f5.png"/>|
 
 **Bluetooth Communication Method:**
 
 l When controlling with a mobile app, ensure that the M5's LCD screen stays in the Bluetooth communication interface.
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps6.jpg) 
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f6.png"/>|
 
 #### ***\*4.Using USB Communication as an Example, Verify Joint Motion Python Source Code:\****
 
@@ -74,7 +74,7 @@ Note: When selecting the COM port for M5 series machines, it is necessary to cho
 
 **Robotic Arm Joint Motion MyBlockly Source Code:**
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps7.jpg) 
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f7.png"/>|
 
  
 
@@ -86,11 +86,10 @@ It's worth mentioning that if you are not familiar with the code block developme
 
 https://drive.google.com/file/d/1pDR-WBjkGrLcRdeshDmAMIWbEpu_jsJW/view?usp=sharing
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps8.jpg) 
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f8.png"/>|
 
-**Robotic Arm Joint Motion Source Code:**![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps9.png)
-
- 
+**Robotic Arm Joint Motion Source Code:**
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f9.png"/>|
 
 When you see the motion effect of the robotic arm revolving around the zero position, with joints 1-6 moving ±20 degrees, it indicates that joints 1-6 respond normally. You can gradually learn to use other examples in the Gitbook or use the robotic arm to do various interesting things!
 
