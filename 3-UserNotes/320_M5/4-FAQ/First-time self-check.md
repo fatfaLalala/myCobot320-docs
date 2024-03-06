@@ -14,7 +14,7 @@ l For MyCobot 280 and Mech 270 series robotic arms, ensure that the power adapte
 
 l For the mycobot320 series machines, please ensure that the power adapter, USB data cable, and emergency stop switch are connected. Make sure the emergency stop switch is in the released state. Failure to use the emergency stop switch correctly will result in the mycobot320 not functioning properly. Please refer to the diagram below for the emergency stop switch:
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml21876\wps2.jpg) 
+|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f2.jpg"/>|
 
  
 
