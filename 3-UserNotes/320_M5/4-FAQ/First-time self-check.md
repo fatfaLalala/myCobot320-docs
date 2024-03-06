@@ -86,7 +86,25 @@ https://drive.google.com/file/d/1pDR-WBjkGrLcRdeshDmAMIWbEpu_jsJW/view?usp=shari
 |<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f8.png"/>|
 
 **Robotic Arm Joint Motion Source Code:**
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f9.png"/>|
+
+# The motion effect is the robotic arm revolving around the zero position, with joints 1-6 moving ±20 degrees one by one
+import time
+from pymycobot.mycobot import MyCobot
+
+if __name__ == "__main__":
+    cobot = MyCobot('com22', 115200)  # Choose the corresponding port and baud rate according to the model of the robot
+    cobot.set_fresh_mode(1)
+    cobot.send_angles([0, 0, 0, 0, 0, 0], 20)
+    time.sleep(2)
+    print("start")
+    for i in range(1, 7):
+        cobot.send_angle(i, -30, 20)
+        time.sleep(2)
+        cobot.send_angle(i, 30, 20)
+        time.sleep(2)
+        cobot.send_angle(i, 0, 20)
+        time.sleep(2)
+
 
 When you see the motion effect of the robotic arm revolving around the zero position, with joints 1-6 moving ±20 degrees, it indicates that joints 1-6 respond normally. You can gradually learn to use other examples in the Gitbook or use the robotic arm to do various interesting things!
 
