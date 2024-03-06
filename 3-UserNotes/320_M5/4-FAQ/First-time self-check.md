@@ -76,11 +76,8 @@ Note: When selecting the COM port for M5 series machines, it is necessary to cho
 
 |<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f7.png"/>|
 
- 
-
 When you observe the effect of joint 1 of the robotic arm cyclically moving from 0 to 90 degrees three times, it indicates that joint 1 of the robotic arm responds normally. You can try changing the joint ID to test other joints and gradually learn to use other examples in GitBook or utilize the robotic arm for various interesting tasks!
 
- 
 
 It's worth mentioning that if you are not familiar with the code block development method of MyBlockly, there is a relatively quick way to verify joints: use the MyBlockly Quick Move Tool for simple joint motion control. For specific usage, please refer to the link below:
 
@@ -100,8 +97,6 @@ If you don't see the corresponding effect when executing the example, please ref
 3. If you are using an M5 series robotic arm,is the LCD screen currently staying on the "Atom: ok" interface?
 4. If you are using a 320 series product, please ensure that your emergency stop switch is connected and in the released state.
 5. Are there any error messages when running the code?
-
- 
 
 Please describe the details of your usage as much as possible, and if possible, provide an operation video, which will help to quickly analyze and locate the problem. Thank you in advance!
 
