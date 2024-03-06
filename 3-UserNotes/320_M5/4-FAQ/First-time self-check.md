@@ -4,8 +4,7 @@
 
 **Attention:** When starting up the robotic arm, please ensure that it is not in a curled-up position or in a posture where joints are touching. It is recommended to start the robotic arm with the posture shown in the following diagram:
 
-<img src="../../../resources/3-UserNotes/14-IssueFAQ/f1.jpg" align="center"/>
-<img src="/i/eg_cute.gif" align="middle" />
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f1.jpg"> </div>
 **The steps for joint control are as follows:**
 
 #### **1.** ***\*Hardware Connection:\****
@@ -14,7 +13,7 @@ l For MyCobot 280 and Mech 270 series robotic arms, ensure that the power adapte
 
 l For the mycobot320 series machines, please ensure that the power adapter, USB data cable, and emergency stop switch are connected. Make sure the emergency stop switch is in the released state. Failure to use the emergency stop switch correctly will result in the mycobot320 not functioning properly. Please refer to the diagram below for the emergency stop switch:
 
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f2.jpg"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f2.jpg"> </div>
 
  
 
@@ -31,26 +30,26 @@ l For PI or JN version robots, there is no need to install and configure the usa
 Before using each communication method, ensure that the M5's LCD screen is set to the corresponding mode and remains in this communication state to control the robotic arm properly.
 
 The M5 robotic arm has three communication methods: USB serial, WiFi, and Bluetooth communication. The most commonly used is the USB serial communication method.
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f3.png"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f3.png"> </div>
 
 **USB Serial Communication Method:**
 
 l When using MyBlockly, Python, ROS, and other development methods, make sure the M5's LCD screen stays on the "Atom: ok" interface.
 
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f4.png"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f4.png"> </div>
 
 
 **WiFi Communication Mode:**
 
 l When using TCP/IP examples in the Python section, make sure the M5's LCD screen remains in the WiFi communication interface.
 
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f5.png"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f5.png"> </div>
 
 **Bluetooth Communication Method:**
 
 l When controlling with a mobile app, ensure that the M5's LCD screen stays in the Bluetooth communication interface.
 
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f6.png"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f6.png"> </div>
 
 #### ***\*4.Using USB Communication as an Example, Verify Joint Motion Python Source Code:\****
 
@@ -74,7 +73,7 @@ Note: When selecting the COM port for M5 series machines, it is necessary to cho
 
 **Robotic Arm Joint Motion MyBlockly Source Code:**
 
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f7.png"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f7.png"> </div>
 
 When you observe the effect of joint 1 of the robotic arm cyclically moving from 0 to 90 degrees three times, it indicates that joint 1 of the robotic arm responds normally. You can try changing the joint ID to test other joints and gradually learn to use other examples in GitBook or utilize the robotic arm for various interesting tasks!
 
@@ -83,7 +82,7 @@ It's worth mentioning that if you are not familiar with the code block developme
 
 https://drive.google.com/file/d/1pDR-WBjkGrLcRdeshDmAMIWbEpu_jsJW/view?usp=sharing
 
-|<div align=center><img src="../../../resources/3-UserNotes/14-IssueFAQ/f8.png"/>|
+<div align=center> <img src="../../../resources/3-UserNotes/14-IssueFAQ/f8.png"> </div>
 
 **Robotic Arm Joint Motion Source Code:**
 
