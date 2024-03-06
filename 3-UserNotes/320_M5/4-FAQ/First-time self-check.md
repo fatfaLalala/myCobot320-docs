@@ -6,7 +6,7 @@
 
 ![img](file:C:\Users\Administrator\Desktop\FQA\fqa_images) 
 
-![f1](C:\Users\Administrator\Desktop\FQA\fqa_images\f1.jpg)
+![f1](resources/3-UserNotes/3.1-SafetyInstructions/careful.png)
 
 **The steps for joint control are as follows:**
 
